@@ -12,7 +12,8 @@ public class  ApiService {
     public ApiBean callApi(String city){
         ApiBean apiBean = new ApiBean();
         RestTemplate restTemplate = new RestTemplate();
-        String API_ID = "61bd5306e482e2121a47fe8d4c197679";
+        //IF anyone is cloning this PLEASE CHANGE API_ID HERE
+        String API_ID = "API_ID Here";
         String URI = "http://api.openweathermap.org/data/2.5/weather?q=";
         city = URI + city + "&APPID=" + API_ID + "&units=metric";
         String Data = restTemplate.getForObject(city,String.class);
