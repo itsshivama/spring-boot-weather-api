@@ -1,4 +1,4 @@
-com/weatherapi/springbootweatherapi/bean/ApiBean.class
 com/weatherapi/springbootweatherapi/service/ApiService.class
 com/weatherapi/springbootweatherapi/SpringBootWeatherApiApplication.class
+com/weatherapi/springbootweatherapi/bean/ApiBean.class
 com/weatherapi/springbootweatherapi/controller/ApiController.class

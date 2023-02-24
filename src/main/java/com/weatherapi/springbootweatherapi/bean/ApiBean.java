@@ -16,8 +16,8 @@ public class ApiBean {
     @Override
     public String toString() {
         return "ApiBean{" +
-                "main='" + main + '\'' +
-                ", country='" + country + '\'' +
+                "main=" + main +
+                ", country=" + country +
                 ", temp=" + temp +
                 '}';
     }
